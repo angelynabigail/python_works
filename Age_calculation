@@ -1,0 +1,6 @@
+age=input("Enter employee's age")
+print(type(age))
+age=int(age)
+Retirement_age=60
+years_pending=Retirement_age-age
+print(years_pending)
