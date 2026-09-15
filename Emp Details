@@ -1,0 +1,10 @@
+employee_name=input("Enter your name: ")
+base_salary=float(input("Enter your salary: "))
+hra_percent=int(input("Enter your hra percent: "))
+bonus_amount=float(input("Enter your bonus amount: "))
+hra=base_salary*(hra_percent/100)
+Total_salary=base_salary+hra+bonus_amount
+print("employee:",employee_name)
+print("Total salary:",Total_salary)
+print("HRA @", hra_percent, "%:", hra)
+print(f"bonus amount @ {bonus_amount}:",bonus_amount)
